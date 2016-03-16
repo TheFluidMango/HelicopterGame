@@ -17,12 +17,10 @@ public class Collector : MonoBehaviour {
 
 	}
 
-	//As in C++, must be public for other objects to access it
-	//You should use the <summary> ... </summary> tags (with three slashes) to add documentation to your functions that communicate with other scripts
 	/// <summary>
-	/// Gets the next game object to fire that has been stored in the collector, returns null if nothing is currently stored
+	/// Gets the next game object civilian that has been stored in the collector, returns null if nothing is currently stored
 	/// </summary>
-	/// <returns>A game object to fire, or null if there is nothing stored</returns>
+	/// <returns>A game object civilian, or null if there is nothing stored</returns>
 	public GameObject getNext() {
 		GameObject returnValue = null;
 
