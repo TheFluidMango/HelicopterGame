@@ -3,23 +3,25 @@ using System.Collections;
 
 public class moveToHelicopter : MonoBehaviour {
 
-	public Transform target;
-
 	public float speed;
-
 	public float distance;
 
+	private GameObject target;
+	private Transform targetPos;
 	private bool inHeli;
 
 	void Start() {
 		inHeli = false;
+		target = GameObject.Find ("HelicopterModel");
 	}
 
 	void Update() {
 
-		if (Vector3.Distance (transform.position, target.position) < distance && !inHeli) {
+		targetPos = target.transform;
+
+		if (Vector3.Distance (transform.position, targetPos.position) < distance && !inHeli) {
 			float step = speed * Time.deltaTime;
-			Vector3 newPos = Vector3.MoveTowards (transform.position, target.position, step);
+			Vector3 newPos = Vector3.MoveTowards (transform.position, targetPos.position, step);
 			newPos.y = transform.position.y;
 			transform.position = newPos;
 		}

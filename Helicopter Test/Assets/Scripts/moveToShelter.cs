@@ -10,7 +10,6 @@ public class moveToShelter : MonoBehaviour {
 	public float distance;
 
 	void Start() {
-		
 	}
 
 	void Update() {
@@ -25,6 +24,7 @@ public class moveToShelter : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other) {
 		if (other.gameObject.name.StartsWith ("Shelter")) {
+			
 			Destroy (gameObject);
 		}
 	}
