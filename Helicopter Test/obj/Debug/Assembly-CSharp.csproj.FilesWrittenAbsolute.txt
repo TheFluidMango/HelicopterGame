@@ -1,0 +1,17 @@
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/obj/Debug/Assembly-CSharp.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/UnityEngine.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/UnityEditor.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Mono.Cecil.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Unity.DataContract.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/TheFluidMango/Documents/GameProgramming/HelicopterGame/Helicopter Test/Temp/bin/Debug/Mono.Cecil.Mdb.dll

@@ -24,7 +24,7 @@ public class moveToShelter : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other) {
 		if (other.gameObject.name.StartsWith ("Shelter")) {
-			
+			ScoreManager.score += 1;
 			Destroy (gameObject);
 		}
 	}
