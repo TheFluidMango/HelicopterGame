@@ -18,6 +18,7 @@ ModelImporter:
     100020: TurretGun
     100022: Underbelly
     100024: Wheels
+    100026: Tread_R
     400000: Body
     400002: Gear
     400004: Mover
@@ -31,6 +32,7 @@ ModelImporter:
     400020: TurretGun
     400022: Underbelly
     400024: Wheels
+    400026: Tread_R
     2300000: Body
     2300002: Gear
     2300004: Skirt
@@ -42,6 +44,7 @@ ModelImporter:
     2300016: TurretGun
     2300018: Underbelly
     2300020: Wheels
+    2300022: Tread_R
     3300000: Body
     3300002: Gear
     3300004: Skirt
@@ -53,6 +56,7 @@ ModelImporter:
     3300016: TurretGun
     3300018: Underbelly
     3300020: Wheels
+    3300022: Tread_R
     4300000: Tread_L
     4300002: Tread
     4300004: Turret
@@ -64,6 +68,7 @@ ModelImporter:
     4300016: Wheels
     4300018: TreadGuide_R
     4300020: TreadGuide_L
+    4300022: Tread_R
     7400000: Default Take
     9500000: //RootNode
   materials:
