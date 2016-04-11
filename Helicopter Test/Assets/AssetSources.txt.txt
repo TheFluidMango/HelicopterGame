@@ -3,5 +3,6 @@ Skyscrapers:
 Tex1: http://marketplace.veer.com/stock-photo/Side-view-of-skyscraper-2620681
 Tex2: http://britphotoguy.com/
 Tex3: http://www.city-data.com/forum/architecture-forum/1489713-everyday-modern-buildings-structures-arent-really-2.html
+Brick: http://www.textures.com/download/bricksmallbrown0264/65739
 
 
