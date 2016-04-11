@@ -32,7 +32,7 @@ public class Collector : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision other) {
-		if (other.gameObject.name.StartsWith ("Civilian")) {
+		if (other.gameObject.name.StartsWith ("civ")) {
 			GameObject civObject = other.gameObject;
 			Vector3 newPosition = civObject.transform.position;
 			//Move the ball under the world temporarily (don't Destroy, because it causes an error on the stack)

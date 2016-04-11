@@ -10,10 +10,10 @@ GameObject:
   - 4: {fileID: 423932}
   - 33: {fileID: 3336888}
   - 136: {fileID: 13606400}
-  - 23: {fileID: 2391814}
   - 114: {fileID: 11418642}
   - 54: {fileID: 5457568}
   - 114: {fileID: 11428092}
+  - 23: {fileID: 2331380}
   m_Layer: 0
   m_Name: Civilian
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!23 &2391814
+--- !u!23 &2331380
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -43,14 +43,14 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 114706987994e0b4f9546fe9f416a34f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
   m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
+  m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_MinimumChartSize: 4
@@ -132,6 +132,22 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 457178, guid: f538e1f23503b4dc789ed5dee1a857c8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 114706987994e0b4f9546fe9f416a34f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 40940519fd190a4499a3fc069f985f44, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 40940519fd190a4499a3fc069f985f44, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 181946}
