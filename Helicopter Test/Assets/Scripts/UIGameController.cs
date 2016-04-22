@@ -8,6 +8,8 @@ public class UIGameController : MonoBehaviour
     public GameObject RestartButton;
     public GameObject InfoButton;
     public GameObject InfoPanel;
+	public GameObject Score;
+	public GameObject numCivs;
 
 	// Use this for initialization
     public static UIGameController runtime;
@@ -30,6 +32,8 @@ public class UIGameController : MonoBehaviour
     private void ShowInfoPanel(bool isShow)
     {
         EngineForceView.gameObject.SetActive(!isShow);
+		Score.SetActive (!isShow);
+		numCivs.SetActive (!isShow);
         RestartButton.SetActive(!isShow);
         InfoButton.SetActive(!isShow);
         InfoPanel.SetActive(isShow);

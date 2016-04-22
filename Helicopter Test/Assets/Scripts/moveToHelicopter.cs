@@ -10,6 +10,8 @@ public class moveToHelicopter : MonoBehaviour {
 	private Transform targetPos;
 	private bool inHeli;
 
+	private Animator myAnimator;
+
 	void Start() {
 		inHeli = false;
 		target = GameObject.Find ("HelicopterModel");
@@ -20,6 +22,12 @@ public class moveToHelicopter : MonoBehaviour {
 		targetPos = target.transform;
 
 		if (Vector3.Distance (transform.position, targetPos.position) < distance && !inHeli) {
+
+			myAnimator = GetComponent<Animator> ();
+			myAnimator.SetBool ("walking", true );
+
+			RotateToHeli();
+
 			float step = speed * Time.deltaTime;
 			Vector3 newPos = Vector3.MoveTowards (transform.position, targetPos.position, step);
 			newPos.y = transform.position.y;
@@ -27,9 +35,18 @@ public class moveToHelicopter : MonoBehaviour {
 		}
 	}
 
+	void RotateToHeli() {
+		Vector3 currentPosition = gameObject.transform.position;
+		Vector3 nextPosition = targetPos.position;
+		Vector3 newLookDirection = (nextPosition - currentPosition).normalized;
+		Quaternion lookRotation = Quaternion.LookRotation(newLookDirection);
+		gameObject.transform.rotation = lookRotation;
+	}
+
 	void OnCollisionEnter(Collision other) {
 		if (other.gameObject.name.StartsWith ("HelicopterModel")) {
 			inHeli = true;
+			civsInChopperManager.civs += 1;
 		}
 	}
 }

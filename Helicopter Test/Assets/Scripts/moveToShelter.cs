@@ -15,11 +15,22 @@ public class moveToShelter : MonoBehaviour {
 	void Update() {
 
 		if (Vector3.Distance (transform.position, target.position) < distance) {
+
+			RotateToShelter ();
+
 			float step = speed * Time.deltaTime;
 			Vector3 newPos = Vector3.MoveTowards (transform.position, target.position, step);
 			newPos.y = transform.position.y;
 			transform.position = newPos;
 		}
+	}
+
+	void RotateToShelter() {
+		Vector3 currentPosition = gameObject.transform.position;
+		Vector3 nextPosition = target.position;
+		Vector3 newLookDirection = (nextPosition - currentPosition).normalized;
+		Quaternion lookRotation = Quaternion.LookRotation(newLookDirection);
+		gameObject.transform.rotation = lookRotation;
 	}
 
 	void OnCollisionEnter(Collision other) {

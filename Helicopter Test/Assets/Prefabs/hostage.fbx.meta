@@ -71,7 +71,77 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Neck/Neck_end
+        weight: 1
+      - path: Armature/Hips/Spine/Shoulder.L
+        weight: 1
+      - path: Armature/Hips/Spine/Shoulder.L/Arm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Shoulder.L/Arm.L/Arm.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Shoulder.R
+        weight: 1
+      - path: Armature/Hips/Spine/Shoulder.R/Arm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Shoulder.R/Arm.R/Arm.R_end
+        weight: 1
+      - path: Armature/Thigh.L
+        weight: 1
+      - path: Armature/Thigh.L/Leg.L
+        weight: 1
+      - path: Armature/Thigh.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Thigh.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Thigh.R
+        weight: 1
+      - path: Armature/Thigh.R/Leg.R
+        weight: 1
+      - path: Armature/Thigh.R/Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Thigh.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
