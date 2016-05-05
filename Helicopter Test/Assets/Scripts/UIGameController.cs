@@ -10,6 +10,7 @@ public class UIGameController : MonoBehaviour
     public GameObject InfoPanel;
 	public GameObject Score;
 	public GameObject numCivs;
+	public GameObject healthHUD;
 
 	// Use this for initialization
     public static UIGameController runtime;
@@ -26,7 +27,8 @@ public class UIGameController : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (Input.GetKey("escape"))
+			Application.LoadLevel ("Title");
 	}
 
     private void ShowInfoPanel(bool isShow)
@@ -34,6 +36,7 @@ public class UIGameController : MonoBehaviour
         EngineForceView.gameObject.SetActive(!isShow);
 		Score.SetActive (!isShow);
 		numCivs.SetActive (!isShow);
+		healthHUD.SetActive (!isShow);
         RestartButton.SetActive(!isShow);
         InfoButton.SetActive(!isShow);
         InfoPanel.SetActive(isShow);
@@ -50,6 +53,7 @@ public class UIGameController : MonoBehaviour
 
     public void RestartGame()
     {
-        Application.LoadLevel("Main");
+		Debug.Log ("failed");
+        Application.LoadLevel("LevelTwo");
     }
 }
